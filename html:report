@@ -1,0 +1,8 @@
+
+Scenario: Buy A Product                            [90m# search.feature:3[0m
+  [32mGiven [0m[32mUser open browser and navigate to the url[0m  [90m# com.bit.stepDef.Step_Defination.user_open_browser_and_navigate_to_the_url()[0m
+  [32mAnd [0m[32mUser is on homePage and search for men shoes[0m [90m# com.bit.stepDef.Step_Defination.user_is_on_home_page_and_search_for_men_shoes()[0m
+  [32mAnd [0m[32mUser click on the shoes[0m                      [90m# com.bit.stepDef.Step_Defination.user_click_on_the_shoes()[0m
+  [32mWhen [0m[32mUser select color[0m                           [90m# com.bit.stepDef.Step_Defination.user_select_color()[0m
+  [32mAnd [0m[32mUser select size[0m                             [90m# com.bit.stepDef.Step_Defination.user_select_size()[0m
+  [32mThen [0m[32mUser add the iteam into the cart[0m            [90m# com.bit.stepDef.Step_Defination.user_add_the_iteam_into_the_cart()[0m
